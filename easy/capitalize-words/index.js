@@ -1,6 +1,13 @@
 function capitalizeWords(sentence) {
     if (sentence === "") return "";
+
+    const words = sentence.trim().split(/\s+/)
     
+    let output = ""
+    for (let i = 0; i < words.length; i++) {
+        output += words[i].charAt(0).toUpperCase() + words[i].slice(1).toLowerCase() + " ";
+    }
+    return output.trim();
 }
 
 const result_1 = capitalizeWords("hello world");

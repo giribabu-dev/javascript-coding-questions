@@ -9,19 +9,19 @@ Output: A new string where each word starts with an uppercase letter followed by
 
 
 # Example Inputs & Outputs
-- # Example 1:
+- Example 1:
     - Input: "hello world"
     - Output: "Hello World"
 
-- # Example 2:
+- Example 2:
     - Input: "javascript is FUN"
     - Output: "Javascript Is Fun"
 
-- # Example 3:
+- Example 3:
     - Input: "  multiple  spaces  "
     - Output: "Multiple Spaces"
 
-- # Example 4:
+- Example 4:
     - Input: ""
     - Output: ""
 
